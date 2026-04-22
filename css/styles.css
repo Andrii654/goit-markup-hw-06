@@ -405,7 +405,9 @@ textarea {
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
 }
 
 .footer-logo-box,
@@ -1173,23 +1175,25 @@ textarea {
             0 2px 1px rgba(46, 47, 66, 0.08);
     }
 
-         .footer-container {
-             display: flex;
-             align-items: baseline;
-         }
-    
-         .footer-logo-box {
-             margin-right: 120px;
-         }
-    
-         .footer-social-box {
-             margin-right: 80px;
-         }
-    
-         .footer-subscribe-box {
-             margin-left: auto;
-         }
-         }
+    .footer-container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        gap: 0;
+    }
+
+    .footer-logo-box {
+        margin-right: 120px;
+    }
+
+    .footer-social-box {
+        margin-right: 80px;
+    }
+
+    .footer-subscribe-box {
+        margin-left: auto;
+    }
+}
 
 @media screen and (min-width: 1158px) and (min-resolution: 2dppx) {
     .hero {
