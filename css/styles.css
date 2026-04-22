@@ -1091,6 +1091,10 @@ textarea {
         padding-bottom: 120px;
     }
 
+    .footer {
+        padding: 100px 0;
+    }
+
     .logo {
         margin-right: 76px;
     }
